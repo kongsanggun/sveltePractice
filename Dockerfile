@@ -1,6 +1,6 @@
 FROM node:14-alpine
 
-WORKDIR /src
+WORKDIR ./src
 
 COPY *.config.js ./
 COPY package*.json ./
