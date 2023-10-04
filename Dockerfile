@@ -11,4 +11,4 @@ RUN npm install
 RUN npm run build
 
 EXPOSE 5000
-CMD [ "pm2", "start", "./build/index.js", "--", "--host"]
+CMD [ "pm2", "start", "./build/index.js" ]
